@@ -1,0 +1,25 @@
+[project]
+name = "cline_automation"
+version = "0.1.0"
+description = "cline-automation using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.108.0,<1.0.0",
+    "streamlit>=1.30.0,<2.0.0", # Added Streamlit
+    "python-dotenv>=1.0.0,<2.0.0" # Added python-dotenv
+]
+
+[project.scripts]
+cline_automation = "cline_automation.main:run"
+run_crew = "cline_automation.main:run"
+train = "cline_automation.main:train"
+replay = "cline_automation.main:replay"
+test = "cline_automation.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"

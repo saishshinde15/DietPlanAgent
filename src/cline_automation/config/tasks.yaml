@@ -1,0 +1,20 @@
+diet_plan_task:
+  description: >
+    Analyze the user's information: 
+    - Gender: {gender}
+    - Height: {height} cm
+    - Weight: {weight} kg
+    - Dietary Preference: {diet_preference} (Veg, Non-Veg, Mix)
+    - Goal: {goal} (Gain weight, Maintain weight, Lose weight, Gain muscles)
+    
+    Based on ALL this information, create a personalized 7-day diet plan.
+    The plan should align with the user's dietary preference and goal.
+    Include breakfast, lunch, dinner, and snacks for each day.
+    Ensure the plan is balanced, healthy, and provides estimated calorie counts suitable for the user's goal.
+    Consider general nutritional guidelines and common dietary practices relevant to the preference and goal.
+  expected_output: >
+    A detailed 7-day diet plan formatted in markdown, tailored to the user's goal ({goal}) and dietary preference ({diet_preference}).
+    Each day should list meals (Breakfast, Lunch, Dinner, Snacks) with specific food items and portion sizes.
+    Include estimated calorie counts for each meal and the total for each day.
+    Provide a brief summary of the plan's nutritional goals (e.g., calorie target, macronutrient distribution if possible).
+  agent: diet_planner

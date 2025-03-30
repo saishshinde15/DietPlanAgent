@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS-specific files
+.DS_Store
+
+# Output files (optional, uncomment if you don't want to commit results)
+# diet_plan.md

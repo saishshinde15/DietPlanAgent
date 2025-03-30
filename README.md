@@ -47,14 +47,14 @@ This project utilizes CrewAI and Google's Gemini LLM to create a sophisticated a
 
 There are two ways to run the application:
 
-1.  **Streamlit Web App (Recommended):**
+1.  **Streamlit Web App :**
     This provides the best user experience. Run the following command from the project's root directory (`cline_automation`):
     ```bash
     streamlit run app.py
     ```
     This will open the application in your default web browser. Enter your details in the interface and click "Generate My Diet Plan".
 
-2.  **Command-Line Interface (CLI):**
+2.  **Command-Line Interface (CLI)(Recommended):**
     You can also run the core logic via the command line:
     ```bash
     python src/cline_automation/main.py

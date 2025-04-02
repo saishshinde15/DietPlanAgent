@@ -60,6 +60,10 @@ There are two ways to run the application:
     python src/cline_automation/main.py
     ```
     This script will prompt you for your details directly in the terminal.
+3. ** Using CrewAi:**
+   ```bash
+   Run using crewai command i.e crewai run
+   ```
 
 ## 📁 Project Structure
 
